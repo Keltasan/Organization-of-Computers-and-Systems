@@ -98,7 +98,16 @@ void preobrazovanie_unsigned_char() {
 	{
 		std::cout << binary_simvol[counter_simvol] << " ";
 	}
-	std::cout << std::endl << std::endl;
+
+	std::cout << std::endl
+		      << "Номер бита:          ";
+
+	for (int counter_simvol = 7; counter_simvol >= 0; --counter_simvol)
+	{
+		std::cout << counter_simvol << " ";
+	}
+
+	std::cout << std::endl;
 
 	std::cout << "Хотите ли вы получить символ обратно из этого кода?";
 	std::cout << std::endl;
@@ -140,10 +149,26 @@ void preobrazovanie_float() {
 	}
 
 	//вывод преобразованного массива
-	std::cout << "Преобразованный код: ";
-	for (int counter_simvol = 0; counter_simvol < const_float_bit; counter_simvol++)
+	std::cout << "Преобразованное представление числа: ";
+	for (int i = 0; i < const_float_bit; i++)
 	{
-		std::cout << binary_float[counter_simvol];
+		if (i < 22)
+		{
+			std::cout << binary_float[i] << "  ";
+		}
+		else
+		{
+			std::cout << binary_float[i] << " ";
+		}
+	}
+
+	std::cout << std::endl << std::endl;
+
+	std::cout << "Номер бита:                          ";
+
+	for (int counter_simvol = 31; counter_simvol >= 0; --counter_simvol)
+	{
+		std::cout << counter_simvol << " ";
 	}
 
 	std::cout << std::endl << std::endl;
@@ -488,6 +513,7 @@ void main_menu() {
 			std::cin.clear();
 			while (std::cin.get() != '\n');
 			std::cout << "Повторите попытку" << std::endl;
+			break;
 		}
 
 		switch (main_key) 

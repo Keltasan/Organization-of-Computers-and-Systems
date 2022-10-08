@@ -1,0 +1,7 @@
+﻿  Lab1.cpp
+C:\Users\Keltasar\Documents\ИСиТ 2 курс 1 сем\ОргЭВМ\Lab1\Lab1.cpp(20,29): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Keltasar\Documents\ИСиТ 2 курс 1 сем\ОргЭВМ\Lab1\Lab1.cpp(37,17): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Keltasar\Documents\ИСиТ 2 курс 1 сем\ОргЭВМ\Lab1\Lab1.cpp(49,25): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Keltasar\Documents\ИСиТ 2 курс 1 сем\ОргЭВМ\Lab1\Lab1.cpp(59,39): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Keltasar\Documents\ИСиТ 2 курс 1 сем\ОргЭВМ\Lab1\Lab1.cpp(67,39): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  Lab1.vcxproj -> C:\Users\Keltasar\Documents\ИСиТ 2 курс 1 сем\ОргЭВМ\x64\Debug\Lab1.exe
